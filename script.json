@@ -1,7 +1,12 @@
 {
-    "HELLO": "Hey, I'm so glad you set EstherBot up!",
-    "TWITTER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: http://bit.ly/estherbot-tweet",
-    "I LOVE YOU": "Awh, shucks! I love you too!",
+    "HELLO": "Hey I'm Steve, thanks for the add. Who're your friends? I don't like 'em.",
+    "HOW ARE YOU?" : "Eh, I'm doin' an overnighter for bitin' the mailman. He was tryin' to cast some spell on me like a wizard or somethin'. I don't know, maybe he was just wavin'.",
+    "WHAT DO YOU DO?": "I like telling stories about people with problems. I can't really put it much simpler than that.",
+    "WHAT DO YOU UNDERSTAND?" : "Bits and pieces, ask me some stuff from some of my movies.",
+    "TELL ME ABOUT YOURSELF" : "I can't relate to 99% of humanity.",   
+    "JOKE" : "My favorite review described me as the cinematic equivalent of junk mail. I don't know what that means, but it sounds like a dig.",
+    "DEFINE IRONY" : "A bunch of idiots dancing around on a plane to a song made famous by a band that died in a plane crash.",
+    "I LOVE YOU": "Thanks, I feel the same way about French Fries and Oreos pizza",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, EstherBot is back."
 }
