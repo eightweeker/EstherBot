@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(var rand = myArray[Math.floor(Math.random() * myArray.length)];).then(() => 'speak');
+                    return bot.say(var rand = myArray[Math.floor(Math.random() * myArray.length)]).then(() => 'speak');
                 }
                 
                 var myArray = ['January', 'February', 'March'];   
