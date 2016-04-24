@@ -44,10 +44,11 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(myArray[Math.floor(Math.random() * myArray.length)]).then(() => 'speak');
+                     return bot.say(myArray).then(() => 'speak');
                 }
                 
-                var myArray = ['January', 'February', 'March'];   
+                var myArray = ['January', 'February', 'March'];
+                var rand = myArray[Math.floor(Math.random() * myArray.length)];
                 
                 var response = scriptRules[upperText];
                 var lines = response.split(/(<img src=\'[^>]*\'\/>)/);
