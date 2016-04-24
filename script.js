@@ -44,9 +44,11 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I'm a little tired, could you just cut the bullshit and ask me about one of my movies?`).then(() => 'speak');
+                    return bot.say(var rand = myArray[Math.floor(Math.random() * myArray.length)];).then(() => 'speak');
                 }
-
+                
+                var myArray = ['January', 'February', 'March'];   
+                
                 var response = scriptRules[upperText];
                 var lines = response.split(/(<img src=\'[^>]*\'\/>)/);
 
